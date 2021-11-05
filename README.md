@@ -21,7 +21,7 @@ args = {city, madhab ,calc_method}
 ## Note: I suck at ui/ux thats why i didnt style it. I will try do it in the future
 
 # To-Do
-[] add GET method  
-[] make it into a full independant api (w json return)  
-[] weekly/monthly/yearly prayers table  
-[] Html/CSS design  
+- [ ] add GET method  
+- [ ] make it into a full independant api (w json return)  
+- [ ] weekly/monthly/yearly prayers table  
+- [ ] Html/CSS design  
