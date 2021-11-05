@@ -1,6 +1,7 @@
 # flask-prayer-times
 small web app to get prayer times with offline calculation (no api used)
 The app is published at http://vodaxe.pythonanywhere.com/
+The app is totally working and can be used on a daily basis, however it is in early developemnt stage and you should always check on another website to be sure
 ## Technologies Used
 [Flask](https://pypi.org/project/Flask/)<br/>
 [pyIslam](https://pypi.org/project/islam/)<br/>
