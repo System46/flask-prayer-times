@@ -1,0 +1,21 @@
+<html>
+   <body>
+      <form action = "http://localhost:5000/praytimes" method = "POST">
+         <p>City Name <input type = "text" name = "city" /></p>
+         <p><input type = "submit" value = "submit" /></p>
+         <select name="madhab" method="GET" action="/">
+            <option value="{{madhabs[0]}}" selected>{{madhabs[0]}}</option>
+            {% for madhab in madhabs[1:] %}
+              <option value="{{madhab}}">{{madhab}}</option>
+            {% endfor %}
+          </select>
+          <select name="calc_method" method="GET" action="/">
+            <option value="{{calc_methods[0]}}" selected>{{calc_methods[0]}}</option>
+            {% for calc_method in calc_methods[1:] %}
+              <option value="{{calc_method}}">{{calc_method}}</option>
+            {% endfor %}
+          </select>
+      </form>
+      
+   </body>
+</html>
