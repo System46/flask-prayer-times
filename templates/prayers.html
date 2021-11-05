@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+   <body>
+       <h1>Prayer times in {{ city }}</h1>
+      <table border = 1>
+         {% for key, value in prayers.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+   </body>
+</html>
